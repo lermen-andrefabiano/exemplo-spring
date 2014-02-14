@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="InitPrimeFaces">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
+        <dependent-module archiveName="br.com.entidades.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/br.com.entidades/br.com.entidades">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="br.com.fwk.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/br.com.fwk/br.com.fwk">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="br.com.acesso.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/br.com.acesso/br.com.acesso">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="br.com.acesso.hib.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/br.com.acesso.hib/br.com.acesso.hib">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="InitPrimeFaces"/>
+        <property name="java-output-path" value="/InitPrimeFaces/build/classes"/>
+    </wb-module>
+</project-modules>
