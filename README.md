@@ -1,4 +1,4 @@
 exemplo-spring
 ==============
 
-Exemplo de projetos com JSF2 + Primefaces4 + Spring &amp; Hibernate3 Integration Project
+Exemplo de projeto com JSF2 + Primefaces 4 + Spring &amp; Hibernate 3 Integration Project
