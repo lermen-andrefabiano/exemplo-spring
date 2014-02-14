@@ -15,7 +15,9 @@ public class TreeBean {
 
 	@PostConstruct
 	public void init() {
+		
 		root = new DefaultTreeNode("Root", null);
+		
 		TreeNode node0 = new DefaultTreeNode("Node 0", root);
 		TreeNode node1 = new DefaultTreeNode("Node 1", root);
 		TreeNode node2 = new DefaultTreeNode("Node 2", root);
